@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="heading">
+      <aside class="sidebar">
+        <ul class="sidebar-list">
+          <li class="profile">
+            <img src="./images/logo.png" alt="profile name" />
+            <p>IMRAN NAZIR</p>
+          </li>
+          <li class="sidebar-item">
+            <div class="sidebar-song-item">
+              <span id="library-name">Your Library</span>
+              <section class="song-list">
+                <div>
+                  <i class="fa-solid fa-headphones"></i>
+                  <p>Recently Played</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-guitar"></i>
+                  <p>Songs</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-compact-disc"></i>
+                  <p>Albums</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-people-robbery"></i>
+                  <p>Arctics</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                  <p>Likes</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-file"></i>
+                  <p>local Files</p>
+                </div>
+              </section>
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <div class="icon-bar">
+              <i class="fa-solid fa-angle-left"></i>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="input-item">
+              <label for="song">
+                <input type="text" placeholder="search song" id="song" />
+              </label>
+            </div>
+          </li>
+        </ul>
+        <div id="notification-bar">
+          <i class="fa-solid fa-gear"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
